@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {padding: 0; margin: 0;}
+        ul, li {list-style: none; }
+
+        .list {
+            overflow: hidden; /* float법칙 or 넘치는 요소에 대해서 숨김 */
+            width: 800px;
+            border: 1px  solid #777;
+            margin: 0 auto;
+        }
+
+        .list li {
+            float:left;
+            width: 25.0000%;
+            height: 100px;
+            border: 1px solid #777;
+            box-sizing: border-box;
+        }
+
+        .list .pos {
+            background-color: pink;
+            position: relative; /* 내가 있는 현재위치 (상대적 위치) */
+            left: 10px;
+            top: 10px;
+        }
+
+        .list .abs {
+            background-color: blueviolet;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        .box {
+            border: 1px solid #777;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            text-align: center;
+            background-color: salmon;
+        }
+    </style>
+
+</head>
+<body >
+    
+    <ul class="list" style="position:relative">
+        <li >박스
+            <p class="abs">포지션</p>
+        </li>
+        <li>박스</li>
+        <li>박스</li>
+        <li>박스
+            <p class="pos">포지션</p>
+        </li>
+    </ul>
+
+    <article class="box">
+        top
+    </article>
+
+
+</body>
+</html>

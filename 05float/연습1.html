@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {margin: 0; padding: 0;}
+        
+        .banner {
+            border: 1px solid #777;
+            overflow: hidden;
+            background-color: rgb(228, 228, 228);
+            height: 40px;
+            box-sizing: border-box;
+        }
+        .banner > .kind {
+            float: left;
+            margin-left: 100px;
+        }
+    
+        .kind > a {
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            width: 45px;
+            line-height: 45px;
+            color: rgb(124, 124, 124);
+        }
+        .banner > .info {
+            float: right;
+            margin-right: 100px;
+        }
+        .info > a {
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            width: 80px;
+            line-height: 45px;
+            color: rgb(124, 124, 124);
+        }
+        .kind > a:hover, .info > a:hover {
+            font-size: 22px;
+
+        }
+        .mid {
+            overflow: hidden;
+            margin-top: 20px;
+            margin: 20px 150px;
+        }
+        .mid > div {
+            float: left;
+            width: 33.333%;
+            text-align: center;
+        }
+        .mid > .rogo > p{
+            font-size: 25px;
+            color: rgb(112, 112, 217);
+            line-height: 40px;
+        }
+        .search > input {
+            font-size: 25px;
+            color: red;
+        }
+        .mid > .choice > a {
+            display: inline-block;
+            font-size: 20px;
+            color: rgb(60, 60, 73);
+            text-decoration: none;
+            width: 55px;
+            line-height: 40px;
+        }
+        .banner2 {
+            border: 1px solid red;
+            background-color: rgb(236, 68, 68);
+            height: 45px;
+            margin-top: 10px;
+
+        }
+        .kind-detail{
+            text-align: center;
+
+        }
+        .kind-detail > a{
+            display: inline-block;
+            color: beige;
+            text-decoration: none;
+            width: 80px;
+            line-height: 45px;
+        }
+        .picture {
+            background-image: url(img/배경.jpg);
+            height: 416px;
+            position: relative;
+
+        }
+
+        .picture > a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: red;
+            width: 155px;
+            height: 33px;
+            color: white;
+            text-align: center;
+            line-height: 37px;
+            position:absolute;
+            left: 280px;
+            bottom: 80px;
+            border-radius: 25px 25px ;
+        }
+
+        .poster {
+            overflow: hidden;
+            border: 1px solid white;
+            height: 680px;
+            width: 976px;
+            margin: 0 auto;
+            padding: 5px;
+
+        }
+        .poster > .none1 {
+            padding: 0 140px;
+        }
+
+        .poster > .img-poster{
+            display: inline-block;
+            
+        }
+
+        .img-poster > img{
+            float: left;
+            display: block;
+            border: 1px solid gray;
+            width: 25%;
+            box-sizing: border-box;
+            padding: 10px;
+
+        }
+        
+        .poster > p {
+            font-size: 30px;
+            text-align: center;
+            padding: 10px 0;
+            color: #777;
+        }
+
+
+    </style>
+
+</head>
+<body class="bb">
+    
+    <div class="home">
+        <div class="banner">
+            <div class="kind">
+                <a href="#">홈</a>
+                <a href="#">투어</a>
+                <a href="#">티켓</a>
+                <a href="#">쇼핑</a>
+                <a href="#">도서</a>
+            </div>
+            <div class="info">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">마이페이지</a>
+                <a href="#">고객센터</a>
+                
+            </div>
+        </div>
+
+        <div class="mid">
+            <div class="rogo">
+                <p>ChanhanPark티켓</p>
+            </div>
+            
+            <div class="search">
+                <input type="text" name="search">
+            </div>
+            <div class="choice">
+                <a href="#">play</a>
+                <a href="#">영화</a>
+                <a href="#">뮤지컬</a>
+            </div>
+        </div>
+
+        <div class="banner2">
+            <div class="kind-detail">
+                <a href="#">뮤지컬</a>
+                <a href="#">콘서트</a>
+                <a href="#">연극</a>
+                <a href="#">클래식/무용</a>
+                <a href="#">스포츠</a>
+                <a href="#">레저/캠핑</a>
+                <a href="#">전시/행사</a>
+                <a href="#">아동/가족</a>
+                <a href="#">toping</a>
+            </div>
+        </div>
+
+        <div class="picture">
+            <a href="">상세보기</a>
+        </div>
+
+        <div class="poster">
+            <p>[뮤지컬]</p>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/11.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/22.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/33.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/44.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/55.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/66.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/77.gif" alt="이미지">
+                </div>
+            </div>
+            <div class="none-1">
+                <div class="img-poster">
+                    <img src="img/88.gif" alt="이미지">
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+
+</body>
+</html>

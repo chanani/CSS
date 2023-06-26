@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            overflow: hidden;
+            margin: 50px;
+            border: 1px solid #777;
+            
+        }
+        .box > div {
+            float: left;
+            width: 50%;
+        }
+
+        .box > .gnb {
+            border: 2px solid #777;
+            box-sizing: border-box;
+        }
+
+        .price  {
+            overflow: hidden;
+            border-top: 2px solid #777;
+        }
+        .price > .left{float:left}
+        .price > .right{float:right}
+
+        .bnt-box{
+            overflow: hidden;
+        }
+        .bnt-box > .bnt-left {
+            float: left;
+            width: 50%;
+        }
+        .bnt-box > .bnt-right {
+            float: left;
+            width: 50%;
+        }
+        
+
+    </style>
+
+
+
+</head>
+<body>
+    <h3>과제2</h3>
+
+    <div class="box">
+      <div class="a1">사진</div>  
+
+      <div class="gnb">
+        <div>제목 : 패딩바텀 50px</div>
+        <div>내용 ~~~ </div>
+       
+        <div class="price">
+            <div class="left">가격</div>
+            <div class="right">10000원</div>
+        </div>
+        <div class="bnt-box">
+            <button class="bnt-left">장바구니</button>
+            <button class="bnt-right">구매하기</button>
+          </div>
+      </div>  
+
+    </div>
+
+
+
+
+</body>
+</html>

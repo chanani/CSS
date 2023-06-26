@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Moirai+One&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Diphylleia', serif;
+        }
+    </style>
+
+    <style>
+        * {padding: 0; margin: 0;} 
+        ul, li {list-style: none;
+            background-color: gray; /* 뒷배경 */
+        } /* 없는 상태에서 시작 */   
+        
+        .gnb > li {
+            display: inline-block; /* 블럭을 인라인으로 바꾸고 크기 설정할 수 있도록 설정 */
+        }
+        .gnb {text-align: center;} /* 박스 가운데로 */
+        .gnb > li > a {
+            display: block; /* 인라인을 블럭으로 */
+            width : 100px;
+            height: 100px;
+            line-height: 100px; /* 줄의 높이 */
+           
+            color: orange;
+            text-decoration: none; /* 밑줄 제거 */
+            font-size: 20px; /* 글씨 크기 */
+            font-weight: 700; /* 글씨 두께 */
+        }
+
+        .gnb > li > a:hover { /* 마우스 올렸을 때 */
+            background-color: rgb(91, 161, 91);
+            font-size: 50px; /* 글씨 크기 */
+            font-weight: 700; /* 글씨 두께 */
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <nav class="box">
+        <ul class="gnb">
+            <li> <a href="#">목록</a></li>
+            <li> <a href="#">목록</a></li>
+            <li> <a href="#">목록</a></li>
+            <li> <a href="#">목록</a></li>
+            <li> <a href="#">목록</a></li>
+        </ul>
+    </nav>
+
+
+
+</body>
+</html>

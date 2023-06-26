@@ -1,0 +1,117 @@
+
+#main_head {
+    width: 100%; 
+    border-top: 3px solid green;
+    border-bottom: 1.5px solid #ddd;
+}
+
+#main_head .box {overflow: hidden; width: 1008px; margin: 0 auto; }
+#main_head .box .left{ float: left; }
+#main_head .box .left > p {
+    color: gray;
+    font-size: 12px;
+    margin: 11px 7px;
+}
+#main_head .box .right {float: right;  }
+
+
+
+#main_head .search_box {border-top: 1px solid #777;  }
+
+#main_head .box .right > p{
+    float: left; 
+    width: 65.91px; 
+    font-size: 12px;
+    padding: 11px 7px; 
+    box-sizing: border-box; 
+    font-weight: 700;
+    text-align: center;
+}
+
+#main_head .search {  width: 1008px; margin: 0 auto; overflow: hidden;}
+#main_head .search > a > img {float: left; } 
+#main_head .search .desk {float: left; width: 330px; height: 40px; margin: 36px 0 0 11px; background-image: url(img2/3.png); }
+#main_head .search .desk > input {float: left; width: 260px; height: 25px; margin: 7px 0 0 18px; border: none; }
+#main_head .search .desk > button {float: right; width: 45px; height: 40px; background-image: url(img2/6.png); border: none; background-color: #fff;}
+#main_head .search .right {float: right; margin: 10px 0 0;}
+
+#main_head .mid {overflow: hidden; margin: 0 250px; width: 1008px; }
+#main_head .mid .mid_box {float: left;}
+#main_head .mid .mid_box > li { display: inline-block; width: 75px; text-align: center; font-size: 15px; font-weight: 700; } 
+#main_head .mid .right {float: right;}
+#main_head .mid .right > li > a {display:inline-block; font-size: 15px; text-decoration: none; text-align: center; font-weight: 700; color: black; width: 75px; height: 40px;}
+
+
+section .wrap > h5 {padding-top: 20px;}
+section .wrap {width: 1008px; margin: 0 auto;}
+section .content {overflow: hidden;}
+section .list_wrap {width: 480px; float: left;}
+section .slide_wrap {width: 236px; float: left;}
+section .user_wrap{width: 280px; float: left;}
+
+/* 이미지의 가수명 영역 */
+.list_wrap ul {overflow: hidden;}
+.list_wrap ul li {float: left; width: 33.3333%; position: relative;} 
+.list_wrap ul li a  {position: relative}
+.list_wrap ul li a .singer {
+    position: absolute; 
+    bottom: 4px; 
+    left: 0;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    opacity: 0.9;
+}
+
+.list_wrap ul li .hover_cont{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 156px;
+    height: 155px;
+    background-color: black;
+    opacity: 0.0; /* 호버가 닿으면 1로 변경 */
+    z-index: 10; /* 가장 위쪽으로 */
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* 호버 */
+.list_wrap ul li:hover > .hover_cont{
+    opacity: 1;
+}
+
+.list_wrap ul li .hover_cont a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+
+    display: inline-block;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+/*  */
+.slide_wrap {margin-left: 4px; }
+.user_wrap {margin-left: 8px; height: 118px;}
+
+.user_wrap > .login_wrap {
+    border: 1px solid #ddd;
+}
+
+.user_wrap > .promotion_wrap {margin-top: 8px;}
+
+.user_wrap .login_wrap {overflow: hidden;}
+.user_wrap .login_wrap .top .left {float: left;}
+.user_wrap .login_wrap .top .right {float: right;}
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+@import url('reset.css');
+
+/* header */
+
+#main_header {overflow: hidden; width: 100%; margin: 20px 10px; position:fixed; top: 0;left:0;}
+#main_header .header_main > .header_img{float: left; width: 33.3333%;}
+#main_header .header_main > .header_logo{float: left; width: 33.3333%; text-align: center; }
+#main_header .header_main > .header_login > .login_info > div{ display: inline-block; float:right; width: 80px; color: gray;} 
+#main_header .box {overflow: hidden; border: 1px solid #777; overflow: hidden;}  
+#main_header .box > .box2 > a {border:1px solid #777; text-decoration: none; color:#777; display:inline-block;; padding: 20px 30px; width: 25%; float: 20%;}
+
+
+/* image */
+
+#main_img {height: 500px; width: 100%; background-image: url(img/123.jpeg); margin-top: 170px;}
+#main_img .img_text > h2 {text-align: center; color: white; font-size: 50px; line-height: 80px; letter-spacing: 30px; padding-top: 100px;}
+#main_img .img_text > p {text-align: center; color: white; font-size: 30px;line-height: 80px; letter-spacing: 15px;}
+
+/* mid_box */
+
+.mid_box {border-bottom: 3px dashed gray;}
+.mid_box > p {text-align: center; font-size: 14px; padding: 10px 0;}
+
+/* last_img */
+
+#last_img { overflow: hidden;}
+#last_img .img_box {  float: left; width: 33.3333%; text-align: center; margin-bottom: 100px; }
+#list_img .img_box > img {display: inline-block; text-align: center; padding:40px;}
+#list_img .img_box p {display: inline-block; text-align: center; padding:40px; font-size: 30px; color: gray;}
+
+
+/* footer */
+#footer {border-top:1px solid rgb(177, 177, 177); overflow: hidden;}
+#footer .final > h2 {display: block; float: left; font-size: 14px;}
+#footer .final > p {display: block; float: right; font-size: 14px;}
+
+
+
