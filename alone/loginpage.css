@@ -74,17 +74,14 @@ header .lower .inset > .menu_bar > a:hover {
 }
 
 
+/* login info */
 
+.container .login_box {margin: 0 auto; text-align: center;}
+.container .login_box .login_form > .forget_id, .forget_pw {display: inline-block;}
 
-/* drop */
-
-/*.drop_box .drop_left{float:left;}
-.drop_box .dropdown{float:right; margin-top: 40px; margin-right: 30px;}
-.drop_box .dropdown > .btn {float:right; line-height: 10px;} */
-
-#drop_box {position: relative; width: 970px; margin: 0 auto; padding: 0;}
-#drop_box .dropdown {position: absolute;right: 23px; top: 30px;}
-#drop_box .btn {line-height: 15px;}
+.container .login_box .login_form  a {color: red;}
+/* .container .login_box .login_form input {background-color: rgb(140, 222, 255); border: none; margin-bottom: 5px;} */
+.container .login_box .login_form input {width: 315px;}
 
 
 
@@ -92,41 +89,16 @@ header .lower .inset > .menu_bar > a:hover {
 
 
 
-/* item_list */
-
-.item_list {padding-top: 10px;}
-.item_list .item_box {
-    overflow: hidden;
-    margin-top: 30px;
-    width: 970px;
-    margin: 0 auto;
-}
-.item_list .item_box .item_vinyl {
-    float: left;
-    width: 33.3333%;
-    box-sizing: border-box;
-    margin-top: 15px;
-}
-.item_list .item_box .item_vinyl img {height: 300px;}
-.item_list .item_box .item_vinyl > h4 {margin-top: 10px; font-size: 22px;}
-.item_list .item_box .item_vinyl > p {font-size: 13px;}
-
-
-
-/* itemPage_background */
-.itemPage_img_box {background-color: black;  width: 100%;}
-.itemPage_img_box .itemPage_background {background-color: black; width: 970px; height: 250px; margin: 0 auto;}
-.itemPage_img_box  .itemPage_text {color: #ddd; text-align: center; padding-top: 35px;}
 
 
 
 
-/* pagination */
 
-#pagination_list { margin: 0 auto; text-align: center; padding-top: 40px;}
-#pagination_list .pagination {color: black;}
-#pagination_list .pagination > li > a {color: black; float:none; border-radius: 8px; }
-#pagination_list .pagination > .active > a {background-color: rgb(173, 170, 170);}
+
+
+
+
+
 
 /* footer */
 
@@ -152,9 +124,3 @@ footer .ft_banner {overflow: hidden;  padding: 50px 97px 0;}
 footer .ft_banner .banner_left {float:Left}
 footer .ft_banner .banner_right{float:light; overflow: hidden;}
 footer .ft_banner .banner_right > li{float: left; padding-left: 15px; }
-
-
-
-
-
-
