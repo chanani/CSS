@@ -80,10 +80,28 @@ header .lower .inset > .menu_bar > a:hover {
 .container .login_box .login_form > .forget_id, .forget_pw {display: inline-block;}
 
 .container .login_box .login_form  a {color: red;}
-/* .container .login_box .login_form input {background-color: rgb(140, 222, 255); border: none; margin-bottom: 5px;} */
-.container .login_box .login_form input {width: 315px;}
+#loginContainer {width: 970px;}
+#loginContainer .login_box .login_form > h2 {margin-bottom: 25px;}
+#loginContainer .login_box .login_form .login_write {
+    width: 260px; 
+    margin-bottom: 15px; 
+    height: 30px; 
+    border: none; 
+    background-color: rgb(207, 205, 205); 
+    padding: 10px;
+    border-radius: 3px;
+}
 
-
+#loginContainer .login_box .login_form .forget_box {overflow: hidden;}
+#loginContainer .login_box .login_form .forget_id {float: left; width: 50%; padding-left: 288px;}
+#loginContainer .login_box .login_form .forget_pw {float: right; width: 50%; padding-right: 305px;}
+#loginContainer .login_box .login_form .login_btn > input{
+    background-color: rgb(255, 183, 183);
+    border: none;
+    height: 45px;
+    width: 150px;
+    color: white;
+}
 
 
 

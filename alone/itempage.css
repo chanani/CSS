@@ -123,10 +123,10 @@ header .lower .inset > .menu_bar > a:hover {
 
 /* pagination */
 
-#pagination_list { margin: 0 auto; text-align: center; padding-top: 40px;}
-#pagination_list .pagination {color: black;}
-#pagination_list .pagination > li > a {color: black; float:none; border-radius: 8px; }
-#pagination_list .pagination > .active > a {background-color: rgb(173, 170, 170);}
+#pagination_list { margin: 0 auto; text-align: center; padding-top: 40px; width:970px }
+#pagination_list .pagination {color: black; }
+#pagination_list .pagination > li > a {color: black; float:none; border-radius: 8px; font-size: 12px;}
+#pagination_list .pagination > .active > a {background-color: rgb(198, 195, 195);}
 
 /* footer */
 
