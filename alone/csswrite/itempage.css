@@ -92,6 +92,77 @@ header .lower .inset > .menu_bar > a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid #ddd;
+}
+footer .container .ft_content {
+    overflow: hidden;
+    
+}
+
+footer .container .ft_content .content_list {
+    float: left;
+    width: 250px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+footer .container .ft_content .content_list > li{margin-bottom: 5px;}
+
+footer .ft_banner {
+    overflow: hidden;
+}
+
+footer .ft_banner .banner_left {
+    float: left;
+}
+
+footer .ft_banner .banner_right {
+    float: right;
+}
+
+footer .ft_banner .banner_right > li {
+    
+}
+
+footer .ft_banner {overflow: hidden;  padding: 50px 97px 0;}
+footer .ft_banner .banner_left {float:Left}
+footer .ft_banner .banner_right{float:light; overflow: hidden;}
+footer .ft_banner .banner_right > li{float: left; padding-left: 15px; }
+
+
+
+
+
 /* item_list */
 
 .item_list {padding-top: 10px;}
