@@ -216,7 +216,7 @@ footer .ft_banner .banner_right > li{float: left; padding-left: 15px; }
   .modal_content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     transform: translate(-50%, -50%);
     background-color: #fefefe;
     border: 1px solid #888;
