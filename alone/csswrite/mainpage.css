@@ -248,3 +248,8 @@ footer .ft_banner .banner_right > li{float: left; padding-left: 15px; }
   .login_box .login_btn_box .login_btn {width: 500px; height: 50px; background-color: rgb(126, 126, 126); border: none; font-size: 18px; border-radius: 5px; color: white;}
   .login_box .login_btn_box .login_btn_box {padding-top: 10px;}
 
+  .login_box .login_join {float:right; padding-top: 10px; }
+  .login_box .login_join > a {color: #a7a6a6;}
+
+
+
